@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form </title>
+    <link rel="icon" href="images/dolar.png" type="images/png" sizes="16x16">
+    <meta name="description" content="just a project">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css"> 
+  </head>
+
+
+  <body>
+        <div class="topnav">
+            <a href="#home">The shop </a>
+            <div class="dropdown">
+                <a href="#" class="notification">
+                  <span>MSG</span>
+                  <span class="badge">3</span>
+                </a>
+    
+                <a href="#" class="notification">
+                  <span>Inbox</span>
+                  <span class="badge">2</span>
+                </a>
+                <img src="images/manos.jpg" alt="profife" style="width:30px; height:30px; border-radius: 100px;">
+                <button onclick="myFunction()" class="dropbtn">manos97 </button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">options</a>
+                  <br>
+                  <a href="#">log out</a>
+                </div>
+              </div>
+        </div>
+        
+     
+    
+        <div class="sidenav">
+          <a href="intex.html">Dashboard</a>
+          <br>
+          <br>
+          <a style="color: beige;">Administration</a>
+          <a href="product.html">Products</a>
+          <a href="companies.html">Companies</a>
+          <a href="transactions.html">Transactions</a>
+          <a href="form.html">Form<</a>
+        </div>
+
+
+        <div class="container">
+            
+            
+            <label for="fname">Ονοματεπωνυμο</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+          
+            <label for="email">e-mail</label>
+            <input type="text" id="email" name="email" placeholder="john@mail.com">
+
+            <label for="thelephone">Τηλεφωνο</label>
+            <input type="text" id="thelephone" name="phone" placeholder="Your phone number" >
+            <br>
+            <br>
+          
+            <label for="category">Κατηγορια</label>
+            <select id="category" name="category">
+             <option value="bisnes">Buisnes Development</option>
+             <option value="marketing">Marketing</option>
+             <option value="sales">Sales</option>
+            </select>
+
+            <a>Εισται μελος;</a>
+            <input type="checkbox" id="myCheck" onclick="check()">
+
+            <textarea id="subject" name="subject" placeholder="πως μπορώ να σας βοηθήσω;" style="height:200px"></textarea>
+          
+            <input type="submit" value="Submit">
+            
+          </div>
+          
+        
+
+        <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+.accordion {
+  margin-top: 4px;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: auto;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+/*TABLES*/
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid rgb(255, 254, 254);
+  
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff57;
+}
+
+/*cards*/
+
+.columns {
+  width: 100%;
+  }
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+/*dashboard cards*/
+
+.card {
+  width: 25%;
+  height: 100px;
+  float: left;
+  padding-left: 40px;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+/*skilbar*/
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 14px; /* Add top padding */
+  padding-bottom: 1px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.bar {
+  
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+
+.bt {width: 50%; background-color: #36f475;} /* Red */
+.con {width: 65%; background-color: #f44336;} /* Red */
+.acc {width: 90%; background-color: #4CAF50;} /* Green */
+.sell {width: 80%; background-color: #2196F3;} /* Blue */
+.pay {width: 60%; background-color: #808080;} /* Dark Grey */
+
